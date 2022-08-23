@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+       <title> My Amazing Website</title>
+   </head>
+   <style>
+    body {
+        background: rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        font-family: arial;
+    }
+    #all-contents {
+      max-width: 900px;
+        margin: auto;
+    }
+ 
+    /* navigation menu */
+    nav {
+        background: rgb(22, 7, 191);
+       margin: 0 auto;
+        display: flex;
+        padding: 10px;
+    }
+    h1 {
+        display: flex;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        flex: 1;
+        margin: 0;
+    }
+    #nav-ul {
+        list-style-image: none;
+    }
+    .nav-li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+ 
+    /* main container area beneath menu */
+    main {
+        background: rgb(255, 106, 0);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 100px;
+        padding: 10px;
+    }
+    .sidebar-img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    #interests {
+        border: 20px rgb(255, 115, 0) ridge;
+        padding: 40px;
+    }
+    h2, h3 {
+        margin: 0px;
+    }
+ </style>
+   <body>
+        <!-- All content goes here  -->
+        <div id="all-contents">
+            <nav>
+                <h1> A Crypto Whale</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                      <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                      <a href="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                 <!-- Sidebar section -->
+                 <div class="sidebar">
+
+                <img class="sidebar-img" src="https://img.etimg.com/thumb/msid-92171203,width-210,imgsize-271908,,resizemode-4,quality-100/top-cryptocurrency-prices-today-bitcoin-ethereum-hit-18-month-lows-avalanche-xrp-cardano-solana-plunge-up-to-15.jpg" width="500" height="200">
+                 </div>
+
+                 <!-- Content section -->
+                 <div class="content">
+                    <h2> Raheem Rasheed </h2>
+                    <p> Living School Student </p>
+
+                    <!-- About Me section -->
+                    <div id="About Me">
+                         <h3>About Me:</h3>
+                         <ul>
+                            <li>Bitcoin Enthusiast</li>
+                            <li>Recovering Gambling Addict</li>
+                            <li>Intermediate Investor</li>
+                        </ul>
+                    </div>
+                </div>
+   </body>
+</html>
